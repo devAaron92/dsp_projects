@@ -1,5 +1,7 @@
-sample = 0.4
+sample = float(input("Enter sample: "))
 
-gain = int(input("Enter gain: "))
+gain = float(input("Enter gain: "))
 
 out = sample * gain
+
+print(out)
