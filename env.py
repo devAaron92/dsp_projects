@@ -1,6 +1,7 @@
 e = 2.718281828459045
 k = 5
 t = 0
+sample_rate = 10
 
 
 while t >= 0:
