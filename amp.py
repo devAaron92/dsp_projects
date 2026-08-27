@@ -4,4 +4,11 @@ gain = float(input("Enter gain: "))
 
 out = sample * gain
 
-print(out)
+if out > 1:
+    print('The number is outside the range')
+
+elif out < -1:
+    print("The number is outside the range")
+
+else:
+    print(out)
